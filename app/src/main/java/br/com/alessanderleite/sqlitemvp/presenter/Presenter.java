@@ -19,6 +19,6 @@ public class Presenter implements IPresenter {
     @Override
     public void setDataToListView() {
         List<String> list = iModel.getListFromDatabase();
-        iMainActivity.setDataToListview(list);
+        iMainActivity.setDataToListView(list);
     }
 }

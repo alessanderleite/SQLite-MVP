@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface IMainActivity {
 
-    void setDataToListview(List<String> categoriesToList);
+    void setDataToListView(List<String> categoriesToList);
 }
